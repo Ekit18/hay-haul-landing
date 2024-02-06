@@ -26,7 +26,7 @@ const ContactUs: React.FC = () => {
       id="contactUs"
       className="flex items-center justify-center xl:text-start"
     >
-      <div className="w-full px-4 flex-col items-center justify-center gap-40 md:px-0 md:w-3/4 mt-10">
+      <div className="w-full px-4 flex-col items-center justify-center gap-40 md:px-0 md:w-4/6 mt-10">
         <h3 className="text-xl md:text-2xl font-bold">Contact us</h3>
         <span className="text-md mt-4 block text-justify">
           Are you ready to gain exciting new experiences in utilizing our

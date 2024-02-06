@@ -4,7 +4,7 @@ import React from "react";
 const Header: React.FC = () => {
   return (
     <div className="flex items-center justify-center text-center xl:text-start xl:h-[90vh] min-h-max">
-      <div className="w-full px-4 flex items-center justify-center gap-40 md:px-0 md:w-3/4 mt-10">
+      <div className="w-full px-4 flex items-center justify-center gap-40 md:px-0 md:w-4/6 mt-10">
         <div className="w-full lg:w-10/12 xl:w-6/12">
           <h1 className="text-2xl md:text-3xl font-medium">
             <span className="text-secondary text-4xl md:text-5xl font-bold">

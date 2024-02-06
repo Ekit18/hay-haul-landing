@@ -11,7 +11,7 @@ import {
 const Reviews: React.FC = () => {
   return (
     <div id="reviews" className="flex justify-center flex-col items-center ">
-      <div className="flex justify-center w-3/4 flex-col items-center">
+      <div className="flex justify-center w-4/6 flex-col items-center">
         <h3 className="text-xl md:text-2xl font-bold mt-5 text-start self-start">
           Reviews
         </h3>
@@ -20,7 +20,7 @@ const Reviews: React.FC = () => {
             align: "start",
             loop: true,
           }}
-          className="w-10/12 mt-20"
+          className="w-10/12 mt-10"
         >
           <CarouselPrevious className="absolute top-0 hover:bg-primary" />
           <CarouselNext className="absolute top-0 hover:bg-primary" />

@@ -10,7 +10,7 @@ export const ServiceCard: React.FC<{ type: AdvantageType }> = ({ type }) => {
         </h3>
         <p>{AdvantageText[type]}</p>
       </div>
-      <button className="rounded-b mt-auto bg-primary text-white px-4 py-2">
+      <button className="rounded-b mt-auto bg-primary text-white px-4 py-2 hover:bg-secondary">
         <a href="">Try this role</a>
       </button>
     </div>

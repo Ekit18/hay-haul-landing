@@ -45,7 +45,7 @@ const FAQ: React.FC = () => {
       id="faq"
       className="flex items-center justify-center text-center xl:text-start"
     >
-      <div className="w-full px-4 flex-col items-center justify-center gap-40 md:px-0 md:w-3/4 mt-10">
+      <div className="w-full px-4 flex-col items-center justify-center gap-40 md:px-0 md:w-4/6 mt-10">
         <h3 className="text-xl md:text-2xl font-bold">
           Frequently asked questions
         </h3>
