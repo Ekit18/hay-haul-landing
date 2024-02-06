@@ -18,7 +18,7 @@ const ContactUs: React.FC = () => {
   });
 
   const onSubmit = (values: ContactUsFormValues) => {
-    alert(values);
+    alert(JSON.stringify(values));
   };
 
   return (
