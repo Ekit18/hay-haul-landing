@@ -102,7 +102,7 @@ const ContactUs: React.FC = () => {
                   )}
                 />
                 <Button
-                  onClick={form.handleSubmit(onSubmit)}
+                  onClick={() => alert("Confirm")}
                   className="w-full hover:bg-secondary"
                   disabled={!form.formState.isValid}
                 >
