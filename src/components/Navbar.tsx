@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div className="w-full h-16 drop-shadow-md sticky top-0 z-10 flex justify-center bg-gray-50">
-        <div className="w-full md:px-0 px-4 md:w-4/6 h-full flex flex-row justify-between items-center">
+        <div className="w-full md:px-0 px-4 md:w-5/6 h-full flex flex-row justify-between items-center">
           <div className="flex flex-row gap-4 justify-center items-center">
             <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
               <SheetTrigger asChild>
