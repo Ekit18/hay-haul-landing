@@ -108,6 +108,13 @@ const ContactUs: React.FC = () => {
                 >
                   Request a demo
                 </Button>
+                <Button
+                  type="submit"
+                  className="w-full hover:bg-secondary"
+                  onClick={() => alert("test")}
+                >
+                  test
+                </Button>
               </form>
             </Form>
           </div>
