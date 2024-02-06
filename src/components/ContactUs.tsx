@@ -17,8 +17,8 @@ const ContactUs: React.FC = () => {
     mode: "onBlur",
   });
 
-  const onSubmit = (values: ContactUsFormValues) => {
-    alert(JSON.stringify(values));
+  const onSubmit = () => {
+    alert("Confirm");
   };
 
   return (
@@ -107,13 +107,6 @@ const ContactUs: React.FC = () => {
                   disabled={!form.formState.isValid}
                 >
                   Request a demo
-                </Button>
-                <Button
-                  type="submit"
-                  className="w-full hover:bg-secondary"
-                  onClick={() => alert("test")}
-                >
-                  test
                 </Button>
               </form>
             </Form>
